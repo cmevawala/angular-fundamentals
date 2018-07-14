@@ -1,34 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
-.hoverwell:hover {
-    background-color: #485563;
-    cursor: pointer;
-  }
-  
-  .container {
-    padding-top: 10px;
-  }
-  
-  .pointable {
-    cursor: pointer;
-  }
-  
-  button {
-    color: #555;
-  }
-  
-  [hidden] {
-    display: none !important;
-  }
-  
-  .toast-success {
-    background-color: #51a351;
-  }
-  .toast-error {
-    background-color: #bd362f;
-  }
-  .toast-info {
-    background-color: #2f96b4;
-  }
-  .toast-warning {
-    background-color: #f89406;
-  }
+
+* {
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.42857 !important;
+}
+
+body {
+  color: rgb(235, 235, 235) !important;
+  background-color: rgb(43, 62, 80) !important;
+}
+
+.hoverwell {
+  background-color: #485563 !important;
+  cursor: pointer;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.pointable {
+  cursor: pointer;
+}
+
+button {
+  color: #555;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.toast-success {
+  background-color: #51a351;
+}
+
+.toast-error {
+  background-color: #bd362f;
+}
+
+.toast-info {
+  background-color: #2f96b4;
+}
+
+.toast-warning {
+  background-color: #f89406;
+}
