@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { EventService } from '../services/event.service';
+import { EventService } from '../services/data-services/event.service';
 import { ToastrService } from '../../shared/services/toastr/toastr.service';
 @Component({
   selector: 'app-events-list',
